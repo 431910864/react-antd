@@ -1,0 +1,59 @@
+{
+  "name": "react-antd",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/hoist-non-react-statics": "^3.3.1",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "@types/react-test-renderer": "^16.9.3",
+    "@types/styled-system": "^5.1.10",
+    "@types/styled-system__core": "^5.1.1",
+    "@types/styled-system__css": "^5.0.13",
+    "@types/styled-system__should-forward-prop": "^5.1.1",
+    "ahooks": "^2.5.0",
+    "antd": "^4.6.1",
+    "antd-theme-generator": "^1.2.4",
+    "compression-webpack-plugin": "^5.0.1",
+    "cross-env": "^7.0.2",
+    "customize-cra": "^1.0.0",
+    "hoist-non-react-statics": "^3.3.2",
+    "less-loader": "^6.2.0",
+    "react": "^16.13.1",
+    "react-app-rewired": "^2.1.6",
+    "react-app-rewired-svg-sprite-loader": "^1.0.2",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.3",
+    "react-test-renderer": "^16.13.1",
+    "reflexbox": "^4.0.6",
+    "typescript": "~3.7.2",
+    "webpack-bundle-analyzer": "^3.8.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start1": "node color && cross-env NODE_ENV=development react-app-rewired start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

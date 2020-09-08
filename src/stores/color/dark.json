@@ -1,0 +1,9 @@
+{
+  "@primary-color": "@default-theme-background-base",
+  "@root-background": "#000",
+  "@default-theme-background-base": "#6A3FB3",
+  "@blue-base": "#6A3FB3",
+  "@white": "#fff",
+  "@black": "#000",
+  "@ant-layout-footer-background": "@popover-background"
+}
